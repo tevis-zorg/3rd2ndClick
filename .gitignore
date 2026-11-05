@@ -1,0 +1,32 @@
+# Project instructions and phase plan
+AGENTS.md
+PLAN.md
+
+# Dependencies and package manager state
+node_modules/
+.pnp.*
+.pnpm-store/
+
+# Build output and local caches
+dist/
+server-dist/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
